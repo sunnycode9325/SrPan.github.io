@@ -1028,10 +1028,16 @@ select {
 
 
 
+
 /* for mobail  */
 @media screen and (max-width: 700PX) {
     .l4 {
         display: none;
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .SOPin h1 {
@@ -1149,5 +1155,41 @@ select {
 
     .logoin {
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 700PX) {
+
+    .comin1 {
+        --tw-text-opacity: 1;
+        color: rgb(55 65 81 / var(--tw-text-opacity));
+        font-size: 3rem;
+        font-family: 'Dosis', sans-serif;
+        display: felx;
+        text-align: center;
+    }
+
+    .head2 {
+        text-align: center;
+    }
+
+    .formsc {
+        background: linear-gradient(20deg, rgb(0 169 255), rgb(43 237 177));
+        width: 26rem;
+        margin: 20px 0px 20px 0PX;
+        height: 40rem;
+        padding-top: 20px;
+        border-radius: 15px;
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    }
+}
+
+@media screen and (max-width: 400PX) {
+    .sec2 .container {
+        height: 400px;
+    }
+
+    .formsc {
+        height: 43rem;
     }
 }
